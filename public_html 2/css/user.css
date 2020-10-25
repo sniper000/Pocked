@@ -1,0 +1,162 @@
+.edit {
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    float: left;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.config {
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    float: right;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.head {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.head h2 {
+    font-family: 'SF UI Display Medium';
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #242833;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.propic{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.lilCam {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.profileName {
+  font-family: 'SF UI Display Light';
+  font-size: 16px;
+  font-weight: 500;
+  color: #242833;
+  margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.ad a {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+  text-decoration: none;
+  max-width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-image-source: linear-gradient(to right, #78b5fa 1%, #9586fd);
+  border-image-slice: 1;
+  float: left;
+  color: black;
+}
+
+.profileMenu {
+    outline: grey 1px solid;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.profileMenu::-webkit-scrollbar {
+    display: none;
+}
+
+.profileMenu a {
+    margin: 10px;
+    flex: 0 0 auto;
+    text-decoration: none;
+    font-family: 'SF UI Display Medium';
+  color: #242833;
+}
+
+.compLessons {
+    height: 68px;
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: grey 1px solid;
+    text-align: left;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.compLessons p {
+    margin-top: 15px;
+}
+
+.stats {
+    margin-bottom: 80px;
+}
+
+.desktopContent {
+  display: none;
+}
+
+@media (min-width: 800px) {
+    .mobileContent {
+        display: none;
+      }
+
+      .desktopContent {
+        display: inline;
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        left: 15%;
+        right: 15%;
+        top: 200px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+
+      .profileMenu {
+          margin-top: 150px;
+      }
+
+      .lilCam {
+          left: auto;
+      }
+
+
+}

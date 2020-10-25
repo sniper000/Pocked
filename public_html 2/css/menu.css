@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Light'), url('../font/sf-ui-display-light-58646b33e0551.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Medium'), url('../font/sf-ui-display-medium-58646be638f96.woff') format('woff');
+}
+
+.Logo1 {
+    width: 29px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1.2px;
+    border-image-source: linear-gradient(to right, #78b5fa 1%, #9586fd);
+    border-image-slice: 1;
+    transform: skewY(-10deg);
+    position: absolute;
+    left: 20px;
+    top: 18px;
+  }
+
+  .Logo2 {
+    width: 24px;
+  height: 28px;
+    border-style: solid;
+    border-width: 1.2px;
+    border-image-source: linear-gradient(to right, #78b5fa 1%, #9586fd);
+    border-image-slice: 1;
+    transform: skewY(10deg);
+    position: absolute;
+    left: 25px;
+    top: 24px;
+    margin-top: -10px;
+  }
+
+.thisLesson {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.grid {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 60px;
+}
+
+.lessonBox {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    /*overflow: hidden;*/
+    outline:none;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.icon {
+    position: relative;
+    float: left;
+}
+
+.gridTitle {
+    text-align: left;
+    margin: 0;
+    margin-left: 90px;
+    top: 34px;
+    width: 170px;
+    position: absolute;
+
+}
+
+.go p {
+    position: relative;
+    margin-left: 292px;
+    margin-right: 5px;
+}
+
+
+.lessonIcon {
+    position: relative;
+    margin-top: 0;
+}
+
+.subject {
+    position: relative;
+    height: 60px;
+}
+
+.subject h1 {
+    position: relative;
+    width: auto;
+    height: 19px;
+    font-family: 'SF UI Display Medium';
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #242833;
+}
+
+.meter {
+	width: 4px;
+    height: 50px;
+    position: absolute;
+    left: 340px;
+    top: -10px;
+	background: #e4e9f5;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.meter > span {
+    display: block;
+  height: 100%;
+  background-image: linear-gradient(to top, #7fbbfb, #9b8dfe);
+  overflow: hidden;
+}
+
+  .progressBar {
+    width: 4px;
+  height: 50px;
+  border-radius: 2px;
+  background-image: linear-gradient(to top, #7fbbfb, #9b8dfe);
+  }
+
+   .logoSmall {
+      position: absolute;
+      height: 40px;
+      top: 10px;
+      left: 24px;
+  }
+
+  @media (min-width: 800px) {
+      .aulas {
+        display: table;
+        margin: 0 auto;
+      }
+
+      .aulas .title {
+          position: relative;
+          left: 70px;
+          margin-top: 0;
+      }
+
+      .logoSmall {
+          position: relative;
+          margin: 0;
+          top: 35px;
+      }
+  }

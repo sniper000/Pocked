@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'SF UI Display Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Display Semibold'), url('../font/sf-ui-display-semibold-58646eddcae92.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'SF UI Display Ultralight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Ultralight'), url('../font/sf-ui-display-ultralight-58646b19bf205.woff') format('woff');
+    }
+
+
+@font-face {
+  font-family: 'SF UI Display Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Display Heavy'), url('../font/sf-ui-display-heavy-586470160b9e5.woff') format('woff');
+  }
+
+.title {
+    margin-top: 20px;
+}
+
+.welcome {
+    display: table;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.POCKED {
+    width: 103px;
+    height: 24px;
+    font-family: 'SF UI Display Heavy';
+    font-size: 23px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #918efd;
+    position: relative;
+    left: 10px;
+    margin-top: 43px;
+  }
+
+  .Logo1 {
+    width: 52px;
+    height: 51px;
+    border-style: solid;
+    border-width: 3.1px;
+    border-image-source: linear-gradient(to right, #78b5fa 1%, #9586fd);
+    border-image-slice: 1;
+    transform: skewY(-10deg);
+    position: absolute;
+    left: 22px;
+    top: 40px;
+  }
+
+  .Logo2 {
+    width: 39px;
+    height: 49px;
+    border-style: solid;
+    border-width: 3.1px;
+    border-image-source: linear-gradient(to right, #78b5fa 1%, #9586fd);
+    border-image-slice: 1;
+    transform: skewY(10deg);
+    position: absolute;
+    left: 35px;
+    top: 40px;
+    margin-top: -10px;
+  }
+
+  .logTitle {
+      margin-top: 68px;
+  }
+
+  .logInfo {
+      margin-top: 24px;
+  }
+
+  .Login-Now {
+    width: 130px;
+    height: 26px;
+    font-family: 'SF UI Display Ultralight';
+    font-size: 22px;
+    font-weight: bold;
+    color: #3e4a59;
+    position: relative;
+  }
+  .Login-Now .text-style-1 {
+    font-family: 'SF UI Display Semibold';
+  }
+
+  .Please-login-to-cont {
+    width: 207px;
+    height: 15px;
+    font-family: 'SF UI Display Semibold';
+    font-size: 13px;
+    color: #8b959a;
+    position: relative;
+  }
+
+  .loginIllustration {
+    width: 294px;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .loginSubmit {
+    width: 195px;
+    height: 40px;
+    border-radius: 6px;
+    border: solid 1px #ffffff;
+    background-image: linear-gradient(to right, #78b5fa 1%, #9586fd);
+    font-family:  'SF UI Display Semibold';
+    font-size: 12px;
+    font-weight: 500;
+  }
+    .loginForm {
+        display: table;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+  .loginForm form {
+      margin-top: 32px;
+  }
+
+  .loginSubmit p {
+      position: relative;
+      top: 10px;
+      color: white;
+  }
+
+  
