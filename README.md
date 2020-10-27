@@ -1,7 +1,7 @@
 # Pocked
 Pocked is a personalized financial education platform for anyone to learn about financial literacy knowledge in the most fun way possible. Watch a video and answer some questions. Level Up your financial knowledge and Level up in Life!
 
-https://www.youtube.com/watch?v=BTq3E5gdpAI&feature=emb_title
+Check out the web app on Youtube: https://www.youtube.com/watch?v=BTq3E5gdpAI&feature=emb_title
 
 Please NOTE to optimize your experience with the web app, use the mobile app on your phone instead of computer
 
